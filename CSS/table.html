@@ -6,10 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        
+        body{
+            background-color: violet;
+        }
+        table{
+            border: 3px solid blue;
+            padding-top: 50px;
+            padding-right: 50px;
+            padding-bottom: 50px;
+            padding-left: 50px;
+            background-color: lightblue;
+            margin-top: 250px;
+            margin-left: auto;
+            margin-bottom: auto;
+            margin-right: auto;
+            border-collapse:collapse;
+            border-style:groove;
+
+        }
+        th{
+            border: 2px solid blue;
+            font-family: cursive;
+            text-align: centre;
+            color: rgb(0, 40, 116);
+            font-size: 150%;
+        }
+        td{
+            border: 2px solid blue;
+            color:blue;
+            font-family: cursive;
+        }
+        li:hover{
+            color: red;
+        }
+        li:active{
+            color: purple;
+        }
+
     </style>
 </head>
 <body>
+    
     <table>
         <tr>
             <th>Adi</th>
@@ -19,12 +56,24 @@
         <tr>
             <td>Mert</td>
             <td>Aras</td>
-            <td>22</td>
+            <td>
+                <ul>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+            </ul>
+        </td>
         </tr>
         <tr>
             <td>Enes</td>
             <td>Berber</td>
-            <td>23</td>
+            <td>
+             <ul>
+                 <li>21</li>
+                 <li>22</li>
+                 <li>23</li>
+             </ul>
+            </td>
         </tr>
     </table>
 </body>
